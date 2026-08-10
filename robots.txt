@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /includes/
+Disallow: /cgi-bin/
+Disallow: /contact-handler.php
+
+Sitemap: https://www.shanvitoursandtravels.com/sitemap.xml

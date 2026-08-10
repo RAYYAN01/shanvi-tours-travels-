@@ -1,0 +1,45 @@
+# Shanvi Tours & Travels — Apache hardening
+# Note: the PHP built-in dev server (php -S) ignores .htaccess entirely.
+# These rules only take effect on Apache hosting (mod_headers, mod_rewrite).
+
+# --- Directory listing & server info -----------------------------------
+Options -Indexes
+ServerSignature Off
+
+# --- Security headers ----------------------------------------------------
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header unset X-Powered-By
+    # Enable once SSL is active on the live domain:
+    # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+<IfModule mod_php.c>
+    php_flag expose_php off
+</IfModule>
+
+# --- Block direct access to include partials and the raw asset dump -----
+<FilesMatch "^(header|footer)\.php$">
+    Require all denied
+</FilesMatch>
+
+# --- Hide dotfiles (.htaccess, .gitignore, .git, etc.) -------------------
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+# --- Turn off PHP error display in production (Apache + mod_php only) ----
+<IfModule mod_php.c>
+    php_flag display_errors off
+    php_flag log_errors on
+</IfModule>
+
+# --- Force HTTPS once an SSL certificate is installed on the live domain -
+# <IfModule mod_rewrite.c>
+#     RewriteEngine On
+#     RewriteCond %{HTTPS} off
+#     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# </IfModule>

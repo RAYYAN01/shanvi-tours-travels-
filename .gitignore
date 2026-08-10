@@ -1,0 +1,22 @@
+# Raw/unprocessed uploads — source material only, not served by the site.
+# Every usable asset from here has already been reviewed, renamed, and
+# copied into images/ or videos/ for actual use on the site.
+public/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Local environment / secrets (none currently in this repo, but keep
+# this pattern so a future .env is never committed by accident)
+.env
+.env.*
