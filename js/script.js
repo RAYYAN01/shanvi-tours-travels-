@@ -9,23 +9,6 @@
     applyState(); // run once on load in case the page opens mid-scroll (e.g. back navigation)
 })();
 
-// Go to Top Button
-window.addEventListener('scroll', function() {
-    const goTopBtn = document.querySelector('.gotop-float');
-    if (window.pageYOffset > 300) {
-        goTopBtn.classList.add('show');
-    } else {
-        goTopBtn.classList.remove('show');
-    }
-});
-
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-}
-
 // Active Navigation Link
 document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('.navbar-nav .nav-link');

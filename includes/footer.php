@@ -54,13 +54,6 @@
         </a>
     </div>
     
-    <!-- Go to Top Button -->
-    <div class="gotop-float">
-        <button class="gotop-btn" onclick="scrollToTop()" aria-label="Go to top">
-            <i class="fas fa-arrow-up"></i>
-        </button>
-    </div>
-    
     <!-- BreadcrumbList structured data: page context for AI answer engines and rich results -->
     <?php
     $breadcrumb_labels = [
