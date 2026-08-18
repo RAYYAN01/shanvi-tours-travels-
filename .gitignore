@@ -20,3 +20,5 @@ desktop.ini
 # this pattern so a future .env is never committed by accident)
 .env
 .env.*
+
+.vercel
