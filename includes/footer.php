@@ -53,7 +53,14 @@
             <i class="fab fa-whatsapp"></i>
         </a>
     </div>
-    
+
+    <!-- Call Float Button -->
+    <div class="call-float">
+        <a href="tel:+919611120023" class="call-btn" aria-label="Call Shanvi Tours & Travels">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
     <!-- BreadcrumbList structured data: page context for AI answer engines and rich results -->
     <?php
     $breadcrumb_labels = [
