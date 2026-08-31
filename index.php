@@ -1,6 +1,6 @@
 <?php
 $page_title = "Bangalore Taxi, Car Rental & Outstation Cab Services";
-$page_description = "Shanvi Tours & Travels: Bangalore's trusted cab and car rental company since 2013. Corporate transport, employee shuttles, city taxis, and outstation trips across Karnataka, Kerala, Tamil Nadu, Telangana & Andhra Pradesh. Available 24/7.";
+$page_description = "Bangalore's trusted cab company since 2013 — corporate transport, city taxis, car rentals & outstation trips across South India. Available 24/7.";
 $page_keywords = "tours and travels bangalore, taxi service bangalore, car rental bangalore, outstation cabs bangalore, corporate cab service, employee transport bangalore";
 include 'includes/header.php';
 ?>
@@ -8,7 +8,7 @@ include 'includes/header.php';
 <!-- Hero Section -->
 <section class="hero-section">
     <div class="carousel-item active">
-        <video autoplay muted loop playsinline aria-label="Cinematic drone footage of the Taj Mahal">
+        <video autoplay muted loop playsinline poster="images/destinations/tajmahal-poster.jpg" aria-label="Cinematic drone footage of the Taj Mahal">
             <source src="videos/scene-w2.mp4" type="video/mp4">
         </video>
         <div class="carousel-overlay">

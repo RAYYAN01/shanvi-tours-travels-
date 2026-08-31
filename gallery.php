@@ -1,6 +1,6 @@
 <?php
 $page_title = "Fleet Gallery - Tempo Traveller, Mini Bus & Luxury Bus";
-$page_description = "See Shanvi Tours & Travels' actual fleet: 12+1 seater Tempo Traveller, 21+1 seater Mini Bus, 33+1 seater Bus, and 49+1 seater Luxury Bus. Real photos, real seating capacity, all air-conditioned and GPS-tracked.";
+$page_description = "Our real fleet: 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus & 49+1 Luxury Bus. Real photos, real seating capacity, all AC and GPS-tracked.";
 $page_keywords = "tempo traveller rental bangalore, 12 seater tempo traveller, mini bus rental bangalore, 21 seater bus, 33 seater bus rental, 49 seater luxury bus bangalore, group travel bus bangalore";
 include 'includes/header.php';
 

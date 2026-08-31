@@ -1,6 +1,6 @@
 <?php
 $page_title = "Services - Corporate Transport, City Taxis & Package Tours";
-$page_description = "Explore Shanvi Tours & Travels' full service range: employee transport, corporate cars, city taxis, self-drive & chauffeur car rentals, outstation trips, and customized package tours across South India.";
+$page_description = "Employee transport, corporate cars, city taxis, car rentals, outstation trips & package tours across South India. See our full service range.";
 $page_keywords = "employee transport bangalore, corporate car rental bangalore, city taxi service, car rental service bangalore, outstation cab booking, package tour south india";
 include 'includes/header.php';
 ?>

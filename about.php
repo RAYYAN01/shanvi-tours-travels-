@@ -1,6 +1,6 @@
 <?php
 $page_title = "About Us - A Decade of Travel Excellence in Bangalore";
-$page_description = "Founded by Pradeep H.B., Shanvi Tours & Travels has served 5,000+ customers over 10+ years with a 50-vehicle fleet across Karnataka, Kerala, Tamil Nadu, Telangana & Andhra Pradesh. Learn our story, mission, and values.";
+$page_description = "Founded by Pradeep H.B., Shanvi Tours & Travels has served 5,000+ customers over 10+ years across Karnataka, Kerala, Tamil Nadu, Telangana & Andhra Pradesh.";
 $page_keywords = "about shanvi tours and travels, bangalore travel company, tours and travels history bangalore, trusted cab company bangalore";
 include 'includes/header.php';
 ?>

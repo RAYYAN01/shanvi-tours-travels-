@@ -1,6 +1,6 @@
 <?php
 $page_title = "Contact Us - Book a Cab or Get a Quote";
-$page_description = "Reach Shanvi Tours & Travels 24/7 at +91 9611120023 or via WhatsApp for bookings and quotes. Visit our SMV Layout office in Bangalore, or send us a message online. We reply within 24 hours.";
+$page_description = "Reach us 24/7 at +91 9611120023 or WhatsApp for bookings and quotes. Visit our SMV Layout office in Bangalore or send us a message online.";
 $page_keywords = "book taxi bangalore, cab booking phone number, shanvi tours contact, travel agency bangalore contact, whatsapp cab booking bangalore";
 include 'includes/header.php';
 ?>

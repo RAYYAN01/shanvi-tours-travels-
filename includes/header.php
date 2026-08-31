@@ -45,6 +45,7 @@ $og_image           = $site_url . '/images/img_1.jpeg';
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/fav.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Preconnect to third-party origins used above the fold -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
