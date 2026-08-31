@@ -86,7 +86,7 @@ include 'includes/header.php';
         <div class="services-grid">
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/services/corporate.jpg" alt="Businessman in formal wear seated in a corporate car" loading="lazy" width="400" height="220">
+                    <img src="images/fleet/luxury-bus-parked.jpg" alt="Our Luxury Bus, ready for corporate bookings" loading="lazy" width="400" height="220">
                 </div>
                 <div class="service-icon"><i class="fas fa-briefcase"></i></div>
                 <h3>Corporate Services</h3>
@@ -94,7 +94,7 @@ include 'includes/header.php';
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/services/employee-transport.jpg" alt="Tempo traveller shuttle bus used for employee transport in India" loading="lazy" width="400" height="220">
+                    <img src="images/fleet/tempo-traveller-exterior.jpg" alt="Our Tempo Traveller, used for daily employee shuttle runs" loading="lazy" width="400" height="220">
                 </div>
                 <div class="service-icon"><i class="fas fa-users"></i></div>
                 <h3>Employee Transport</h3>
@@ -102,7 +102,7 @@ include 'includes/header.php';
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/services/city-taxi.jpg" alt="Car parked on a residential street in an Indian city" loading="lazy" width="400" height="220">
+                    <img src="images/fleet/bus-city-street.jpg" alt="Our Bus on a Bangalore city route" loading="lazy" width="400" height="220">
                 </div>
                 <div class="service-icon"><i class="fas fa-taxi"></i></div>
                 <h3>City Taxi Services</h3>
@@ -110,7 +110,7 @@ include 'includes/header.php';
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/services/car-rental.jpg" alt="Cars parked outside a Hyundai showroom in India" loading="lazy" width="400" height="220">
+                    <img src="images/fleet/mini-bus-exterior.jpg" alt="Our Mini Bus, part of the rental fleet" loading="lazy" width="400" height="220">
                 </div>
                 <div class="service-icon"><i class="fas fa-car"></i></div>
                 <h3>Car Rental Services</h3>
@@ -118,7 +118,7 @@ include 'includes/header.php';
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/services/outstation.jpg" alt="Hairpin road through the Western Ghats on an outstation route" loading="lazy" width="400" height="220">
+                    <img src="images/fleet/bus-road-angle.jpg" alt="Our Bus on the road for an outstation trip" loading="lazy" width="400" height="220">
                 </div>
                 <div class="service-icon"><i class="fas fa-road"></i></div>
                 <h3>Outstation Services</h3>
@@ -126,7 +126,7 @@ include 'includes/header.php';
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/services/package-tours.jpg" alt="Heritage hop-on hop-off tourist bus on a South Indian street" loading="lazy" width="400" height="220">
+                    <img src="images/fleet/luxury-bus-temple-2.jpg" alt="Our Luxury Bus on a temple pilgrimage tour" loading="lazy" width="400" height="220">
                 </div>
                 <div class="service-icon"><i class="fas fa-suitcase-rolling"></i></div>
                 <h3>Package Tours</h3>
