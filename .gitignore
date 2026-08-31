@@ -22,3 +22,15 @@ desktop.ini
 .env.*
 
 .vercel
+
+# npm artifacts from occasional `vercel`/CLI runs — this is a plain PHP
+# project, there's no real package.json here
+node_modules/
+package-lock.json
+
+# Raw phone-export media has landed loose in the project root before
+# (instead of public/) — catch it wherever it lands so it never gets
+# committed by accident again.
+WhatsApp Image *.jpeg
+WhatsApp Image *.jpg
+WhatsApp Video *.mp4
