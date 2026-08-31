@@ -37,6 +37,10 @@ $fleet = [
         'icon' => 'fa-bus',
         'exterior' => 'images/fleet/bus-exterior.jpg',
         'interior' => 'images/fleet/bus-interior.jpg',
+        'extra' => [
+            ['src' => 'images/fleet/bus-city-street.jpg', 'label' => 'On a Bangalore city route'],
+            ['src' => 'images/fleet/bus-road-angle.jpg', 'label' => 'On the road'],
+        ],
         'plate' => 'KA 51 AL 7388',
         'desc' => 'A full-size touring coach with pushback reclining seats and generous legroom, built for long outstation routes across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh.',
         'ideal' => 'Best for: outstation tours, large groups, pilgrimage trips',
@@ -48,6 +52,11 @@ $fleet = [
         'icon' => 'fa-gem',
         'exterior' => 'images/fleet/luxury-bus-exterior.jpg',
         'interior' => 'images/fleet/luxury-bus-interior.jpg',
+        'extra' => [
+            ['src' => 'images/fleet/luxury-bus-parked.jpg', 'label' => 'Parked and ready'],
+            ['src' => 'images/fleet/luxury-bus-temple-1.jpg', 'label' => 'On a pilgrimage trip'],
+            ['src' => 'images/fleet/luxury-bus-temple-2.jpg', 'label' => 'On a pilgrimage trip'],
+        ],
         'plate' => 'KA 51 AL 4498',
         'desc' => 'Our flagship coach — premium upholstered seating, an onboard entertainment screen, and a red-carpet aisle, built for the largest groups: weddings, school batches, and multi-day South India tours.',
         'ideal' => 'Best for: weddings, school/college batches, large tours',
@@ -93,6 +102,15 @@ $fleet = [
                     <i class="fas fa-search-plus"></i>
                 </div>
             </div>
+            <?php foreach (($v['extra'] ?? []) as $photo): ?>
+            <div class="gallery-item">
+                <span class="trip-badge"><?php echo htmlspecialchars($v['name'] . ' · ' . $photo['label']); ?></span>
+                <img src="<?php echo $photo['src']; ?>" alt="<?php echo htmlspecialchars('Shanvi Tours & Travels ' . $v['name'] . ' — ' . $photo['label']); ?>" loading="lazy">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <?php endforeach; ?>
             <?php endforeach; ?>
         </div>
     </div>

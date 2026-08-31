@@ -135,7 +135,7 @@ include 'includes/header.php';
                     
                     <div class="form-group">
                         <label for="service">Service Interested In</label>
-                        <select id="service" name="service" style="width: 100%; padding: 12px 20px; border: 2px solid #e0e0e0; border-radius: 10px; font-family: 'Poppins', sans-serif;">
+                        <select id="service" name="service" style="width: 100%; padding: 12px 20px; border: 2px solid #e0e0e0; border-radius: 10px; font-family: 'Manrope', sans-serif;">
                             <option value="">Select a service</option>
                             <option value="Employee Transport">Employee Transport</option>
                             <option value="Corporate Services">Corporate Services</option>
