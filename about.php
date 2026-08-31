@@ -1,7 +1,7 @@
 <?php
-$page_title = "About Us - A Decade of Travel Excellence in Bangalore";
-$page_description = "Founded by Pradeep H.B., Shanvi Tours & Travels has served 5,000+ customers over 10+ years across Karnataka, Kerala, Tamil Nadu, Telangana & Andhra Pradesh.";
-$page_keywords = "about shanvi tours and travels, bangalore travel company, tours and travels history bangalore, trusted cab company bangalore";
+$page_title = "About Shanvi Tours & Travels - Bangalore Mini Bus & Bus Rental Since 2013";
+$page_description = "Founded by Pradeep H.B., Shanvi Tours & Travels has run mini bus and bus rentals from Bangalore for over 10 years — 12+1 to 49+1 seater vehicles across South India.";
+$page_keywords = "about shanvi tours and travels, bangalore bus rental company, mini bus rental company bangalore, reliable bus rental company bangalore, best bus rental company bangalore";
 include 'includes/header.php';
 ?>
 

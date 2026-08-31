@@ -3,9 +3,9 @@
 // before including this file; sensible site-wide defaults are used otherwise.
 $site_name   = 'Shanvi Tours & Travels';
 $site_url    = 'https://www.shanvitoursandtravels.com';
-$page_title       = isset($page_title) ? $page_title : 'Bangalore Taxi, Car Rental & Outstation Cab Services';
-$page_description = isset($page_description) ? $page_description : "Shanvi Tours & Travels offers premium taxi services, car rentals, corporate transport, and package tours in Bangalore and across South India. Over a decade of trusted service.";
-$page_keywords    = isset($page_keywords) ? $page_keywords : 'tours and travels bangalore, car rental bangalore, taxi services, corporate transport, outstation cabs, package tours';
+$page_title       = isset($page_title) ? $page_title : 'Mini Bus & Bus Rental Bangalore - 12 to 49 Seater, With Driver';
+$page_description = isset($page_description) ? $page_description : "Shanvi Tours & Travels: mini bus and bus rental in Bangalore since 2013. 12+1, 21+1, 33+1 & 49+1 seater vehicles with driver for corporate, wedding, school & outstation trips.";
+$page_keywords    = isset($page_keywords) ? $page_keywords : 'mini bus rental bangalore, bus rental bangalore, bus hire bangalore, mini bus hire bangalore, tourist bus rental bangalore, bus rental near me, corporate bus rental bangalore';
 $current_path      = isset($_SERVER['REQUEST_URI']) ? strtok($_SERVER['REQUEST_URI'], '?') : '/index.php';
 $canonical_url      = $site_url . $current_path;
 $og_image           = $site_url . '/images/img_1.jpeg';
@@ -68,11 +68,13 @@ $og_image           = $site_url . '/images/img_1.jpeg';
         "@context": "https://schema.org",
         "@type": "TravelAgency",
         "name": "Shanvi Tours & Travels",
+        "description": "Mini bus and bus rental company in Bangalore providing 12+1, 21+1, 33+1 and 49+1 seater vehicles with driver for corporate, wedding, school, college, pilgrimage and outstation travel.",
         "image": "<?php echo htmlspecialchars($og_image); ?>",
         "logo": "<?php echo htmlspecialchars($site_url); ?>/images/logo.png",
         "url": "<?php echo htmlspecialchars($site_url); ?>",
         "telephone": "+91-9611120023",
         "priceRange": "₹₹",
+        "knowsAbout": ["Mini Bus Rental", "Bus Rental", "Tourist Bus Hire", "Corporate Bus Rental", "Wedding Bus Rental", "School and College Trip Bus Rental", "Pilgrimage Bus Rental", "Outstation Bus Rental"],
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "#2472/1, 3rd Block, SMV Layout, Doddabasthihalli, Near Vijaya Hospital, Nagadevanahalli",
@@ -93,12 +95,18 @@ $og_image           = $site_url . '/images/img_1.jpeg';
             "closes": "23:59"
         },
         "areaServed": [
+            { "@type": "City", "name": "Bangalore" },
             { "@type": "State", "name": "Karnataka" },
             { "@type": "State", "name": "Kerala" },
             { "@type": "State", "name": "Tamil Nadu" },
             { "@type": "State", "name": "Telangana" },
             { "@type": "State", "name": "Andhra Pradesh" }
         ],
+        "serviceArea": {
+            "@type": "GeoCircle",
+            "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 12.9634, "longitude": 77.5099 },
+            "geoRadius": "40000"
+        },
         "sameAs": [
             "https://facebook.com",
             "https://instagram.com",

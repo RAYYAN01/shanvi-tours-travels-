@@ -4,7 +4,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h4>About Shanvi Tours</h4>
-                    <p>With over a decade of experience in the travel industry, Shanvi Tours & Travels has been Bangalore's trusted partner for all transportation needs. We pride ourselves on punctuality, safety, and exceptional customer service.</p>
+                    <p>Bangalore-based mini bus and bus rental company — a 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus, and 49+1 Luxury Bus, with drivers, for corporate, wedding, school, pilgrimage, and outstation trips.</p>
                     <div class="social-links">
                         <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
@@ -23,13 +23,13 @@
                 </div>
                 
                 <div class="footer-section">
-                    <h4>Our Services</h4>
+                    <h4>Bus Rental Services</h4>
                     <a href="services.php#employee-transport">Employee Transport</a>
-                    <a href="services.php#corporate">Corporate Services</a>
-                    <a href="services.php#city-taxi">City Taxi Services</a>
-                    <a href="services.php#car-rental">Car Rental</a>
-                    <a href="services.php#outstation">Outstation Services</a>
-                    <a href="services.php#package-tours">Package Tours</a>
+                    <a href="services.php#corporate">Corporate Bus Rental</a>
+                    <a href="services.php#wedding">Wedding Bus Rental</a>
+                    <a href="services.php#school-college">School &amp; College Trips</a>
+                    <a href="services.php#outstation">Outstation Bus Rental</a>
+                    <a href="services.php#package-tours">Pilgrimage &amp; Package Tours</a>
                 </div>
                 
                 <div class="footer-section">

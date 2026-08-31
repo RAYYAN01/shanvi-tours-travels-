@@ -1,7 +1,7 @@
 <?php
-$page_title = "Contact Us - Book a Cab or Get a Quote";
-$page_description = "Reach us 24/7 at +91 9611120023 or WhatsApp for bookings and quotes. Visit our SMV Layout office in Bangalore or send us a message online.";
-$page_keywords = "book taxi bangalore, cab booking phone number, shanvi tours contact, travel agency bangalore contact, whatsapp cab booking bangalore";
+$page_title = "Contact Us - Book a Mini Bus or Bus Rental";
+$page_description = "Reach us 24/7 at +91 9611120023 or WhatsApp to book a mini bus or bus rental in Bangalore. Visit our SMV Layout office or send us a message online.";
+$page_keywords = "bus rental bangalore booking, mini bus rental near me, bus rental phone number, shanvi tours contact, whatsapp bus booking bangalore";
 include 'includes/header.php';
 ?>
 
@@ -138,11 +138,11 @@ include 'includes/header.php';
                         <select id="service" name="service" style="width: 100%; padding: 12px 20px; border: 2px solid #e0e0e0; border-radius: 10px; font-family: 'Manrope', sans-serif;">
                             <option value="">Select a service</option>
                             <option value="Employee Transport">Employee Transport</option>
-                            <option value="Corporate Services">Corporate Services</option>
-                            <option value="City Taxi">City Taxi Services</option>
-                            <option value="Car Rental">Car Rental Services</option>
-                            <option value="Outstation">Outstation Services</option>
-                            <option value="Package Tours">Package Tours</option>
+                            <option value="Corporate Bus Rental">Corporate Bus Rental</option>
+                            <option value="Wedding Bus Rental">Wedding Bus Rental</option>
+                            <option value="School/College Trip">School / College Trip</option>
+                            <option value="Outstation">Outstation Bus Rental</option>
+                            <option value="Package Tours">Pilgrimage &amp; Package Tours</option>
                             <option value="Other">Other</option>
                         </select>
                     </div>
@@ -221,20 +221,40 @@ include 'includes/header.php';
 // and the FAQPage structured data below, so the two can never drift apart.
 $faqs = [
     [
-        'q' => 'How do I book a vehicle?',
-        'a' => "You can book a vehicle by calling us at 9611120023, sending a WhatsApp message, emailing us, or filling out the contact form above. We're available 24/7 for bookings."
+        'q' => 'Where can I rent a mini bus in Bangalore?',
+        'a' => "Shanvi Tours & Travels rents mini buses and buses directly, based out of SMV Layout, Nagadevanahalli, Bangalore. Book by phone, WhatsApp, or the form on this page — we're available 24/7."
+    ],
+    [
+        'q' => 'Which bus is suitable for my group size?',
+        'a' => 'We run four sizes: a 12+1 seater Tempo Traveller for small groups and families, a 21+1 seater Mini Bus for mid-size groups, a 33+1 seater Bus for larger groups, and a 49+1 seater Luxury Bus for the biggest events. Tell us your headcount and we\'ll recommend the right one.'
+    ],
+    [
+        'q' => 'Can I rent a bus with a driver in Bangalore?',
+        'a' => 'Yes — every vehicle comes with a professional, background-verified driver. We don\'t offer self-drive rentals.'
+    ],
+    [
+        'q' => 'How much does a mini bus or bus rental cost in Bangalore?',
+        'a' => 'Pricing depends on the vehicle size, trip distance, and duration — local, outstation, and multi-day trips are priced differently. Call or WhatsApp us with your route and group size for an exact quote.'
+    ],
+    [
+        'q' => 'Do you provide AC mini buses and buses?',
+        'a' => 'Yes, all four vehicles in our fleet are air-conditioned.'
+    ],
+    [
+        'q' => 'Do you provide buses for weddings, corporate events, or school/college trips?',
+        'a' => 'Yes — weddings, corporate travel, school and college trips, and pilgrimage tours are some of our most common bookings. See our Services page for what each vehicle size is best suited to.'
+    ],
+    [
+        'q' => 'Which destinations do you cover from Bangalore?',
+        'a' => 'We run outstation trips across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh — including popular routes like Mysore, Coorg, Ooty, Wayanad, Hampi, and Tirupati.'
+    ],
+    [
+        'q' => 'Do you provide one-way or round-trip bus rental?',
+        'a' => 'Both. Outstation bookings can be one-way or round-trip, priced on a per-km or per-day basis depending on the route.'
     ],
     [
         'q' => 'What is your cancellation policy?',
         'a' => 'Cancellations made 24 hours before the scheduled pickup time are free of charge. Cancellations within 24 hours may incur a small fee. Please contact us for specific details.'
-    ],
-    [
-        'q' => 'Are your drivers experienced?',
-        'a' => 'Yes! All our drivers are professionally trained, background-verified, and have extensive experience navigating routes across South India. Safety and professionalism are our priorities.'
-    ],
-    [
-        'q' => 'Do you provide outstation services?',
-        'a' => 'Absolutely! We provide outstation services across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh. Our drivers are familiar with all major routes and destinations.'
     ],
     [
         'q' => 'What payment methods do you accept?',

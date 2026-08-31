@@ -1,7 +1,7 @@
 <?php
-$page_title = "Bangalore Taxi, Car Rental & Outstation Cab Services";
-$page_description = "Bangalore's trusted cab company since 2013 — corporate transport, city taxis, car rentals & outstation trips across South India. Available 24/7.";
-$page_keywords = "tours and travels bangalore, taxi service bangalore, car rental bangalore, outstation cabs bangalore, corporate cab service, employee transport bangalore";
+$page_title = "Mini Bus & Bus Rental Bangalore - 12 to 49 Seater, With Driver";
+$page_description = "Mini bus rental & bus rental in Bangalore since 2013 — 12+1, 21+1, 33+1 & 49+1 seater vehicles with driver for corporate, wedding, school & outstation trips.";
+$page_keywords = "mini bus rental bangalore, bus rental bangalore, bus hire bangalore, mini bus hire bangalore, tourist bus rental bangalore, bus rental near me, mini bus with driver bangalore, corporate bus rental bangalore, wedding bus rental bangalore";
 include 'includes/header.php';
 ?>
 
@@ -13,9 +13,9 @@ include 'includes/header.php';
         </video>
         <div class="carousel-overlay">
             <div class="hero-content">
-                <h1 class="fade-in-up">Unforgettable Journeys, Beautifully Made</h1>
-                <p class="fade-in-up">Custom tours planned around wherever your journey takes you</p>
-                <a href="contact.php" class="btn-hero">Start Planning</a>
+                <h1 class="fade-in-up">Mini Bus & Bus Rental in Bangalore</h1>
+                <p class="fade-in-up">12+1 to 49+1 seater vehicles with driver — for corporate, wedding, school & pilgrimage trips</p>
+                <a href="contact.php" class="btn-hero">Get a Quote</a>
             </div>
         </div>
     </div>
@@ -36,7 +36,7 @@ include 'includes/header.php';
                     We've been running vehicles out of Bangalore for over ten years — long enough to know a 6 AM airport pickup and a two-week temple tour need completely different things from a driver.
                 </p>
                 <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem;">
-                    Book a same-day city cab or a 49-seater for a college trip — same team, same fixed pricing, no surprise charges at drop-off.
+                    Book a 12+1 Tempo Traveller for a small group or a 49+1 Luxury Bus for a college trip — same team, same fixed pricing, no surprise charges at drop-off.
                 </p>
                 <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
                     We run daily employee shuttles for offices, one-off pickups for families, and everything in between across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh.
@@ -54,8 +54,8 @@ include 'includes/header.php';
                         <p>Happy Customers</p>
                     </div>
                     <div class="stat-item">
-                        <h4>50+</h4>
-                        <p>Premium Vehicles</p>
+                        <h4>4</h4>
+                        <p>Vehicle Sizes, 12–49 Seats</p>
                     </div>
                     <div class="stat-item">
                         <h4>24/7</h4>
@@ -80,57 +80,57 @@ include 'includes/header.php';
     <div class="container">
         <div class="section-title">
             <span class="eyebrow">What We Offer</span>
-            <h2>Our Premium Services</h2>
-            <p>Comprehensive transport solutions for every need</p>
+            <h2>Bus Rental by Occasion</h2>
+            <p>One fleet, four sizes, booked for whatever the trip needs</p>
         </div>
         <div class="services-grid">
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/fleet/luxury-bus-parked.jpg" alt="Our Luxury Bus, ready for corporate bookings" loading="lazy" width="400" height="220">
-                </div>
-                <div class="service-icon"><i class="fas fa-briefcase"></i></div>
-                <h3>Corporate Services</h3>
-                <p>Reliable corporate transport solutions with professional chauffeurs for your business needs. Perfect for client meetings, airport transfers, and executive travel.</p>
-            </div>
-            <div class="service-card">
-                <div class="card-cover">
-                    <img src="images/fleet/tempo-traveller-exterior.jpg" alt="Our Tempo Traveller, used for daily employee shuttle runs" loading="lazy" width="400" height="220">
+                    <img src="images/fleet/tempo-traveller-exterior.jpg" alt="12+1 seater Tempo Traveller for employee transport" loading="lazy" width="400" height="220">
                 </div>
                 <div class="service-icon"><i class="fas fa-users"></i></div>
                 <h3>Employee Transport</h3>
-                <p>Safe and punctual employee shuttle services. We ensure your team arrives on time, every time, with our dedicated transport solutions.</p>
+                <p>Daily staff shuttle on a 12+1 Tempo Traveller or 21+1 Mini Bus, with fixed routes and pickup times across Bangalore.</p>
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/fleet/bus-city-street.jpg" alt="Our Bus on a Bangalore city route" loading="lazy" width="400" height="220">
+                    <img src="images/fleet/luxury-bus-parked.jpg" alt="Bus rental for corporate travel in Bangalore" loading="lazy" width="400" height="220">
                 </div>
-                <div class="service-icon"><i class="fas fa-taxi"></i></div>
-                <h3>City Taxi Services</h3>
-                <p>Quick and convenient city taxi services across Bangalore. Whether it's a short trip or a full-day rental, we've got you covered.</p>
+                <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+                <h3>Corporate Bus Rental</h3>
+                <p>Client visits, offsites, and conference transport — booked at the vehicle size that matches your headcount.</p>
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/fleet/mini-bus-exterior.jpg" alt="Our Mini Bus, part of the rental fleet" loading="lazy" width="400" height="220">
+                    <img src="images/fleet/bus-city-street.jpg" alt="Wedding bus rental Bangalore" loading="lazy" width="400" height="220">
                 </div>
-                <div class="service-icon"><i class="fas fa-car"></i></div>
-                <h3>Car Rental Services</h3>
-                <p>Flexible car rental options for your convenience. Choose from our diverse fleet and enjoy the freedom of self-drive or chauffeur-driven vehicles.</p>
+                <div class="service-icon"><i class="fas fa-heart"></i></div>
+                <h3>Wedding Bus Rental</h3>
+                <p>Guest transport between venues on a 49+1 Luxury Bus, with multiple pickup points and flexible event timing.</p>
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/fleet/bus-road-angle.jpg" alt="Our Bus on the road for an outstation trip" loading="lazy" width="400" height="220">
+                    <img src="images/fleet/mini-bus-exterior.jpg" alt="School and college trip bus rental Bangalore" loading="lazy" width="400" height="220">
+                </div>
+                <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3>School & College Trips</h3>
+                <p>Full-batch educational tours and excursions on a 33+1 Bus or 49+1 Luxury Bus, with drivers used to group trips.</p>
+            </div>
+            <div class="service-card">
+                <div class="card-cover">
+                    <img src="images/fleet/bus-road-angle.jpg" alt="Outstation bus rental from Bangalore" loading="lazy" width="400" height="220">
                 </div>
                 <div class="service-icon"><i class="fas fa-road"></i></div>
-                <h3>Outstation Services</h3>
-                <p>Comfortable outstation travel to destinations across South India. Enjoy scenic routes with our experienced drivers who know every highway.</p>
+                <h3>Outstation Bus Rental</h3>
+                <p>Multi-day trips across Karnataka, Kerala, Tamil Nadu, Telangana & Andhra Pradesh, with drivers who know the routes.</p>
             </div>
             <div class="service-card">
                 <div class="card-cover">
-                    <img src="images/fleet/luxury-bus-temple-2.jpg" alt="Our Luxury Bus on a temple pilgrimage tour" loading="lazy" width="400" height="220">
+                    <img src="images/fleet/luxury-bus-temple-2.jpg" alt="Pilgrimage and package tour bus rental" loading="lazy" width="400" height="220">
                 </div>
                 <div class="service-icon"><i class="fas fa-suitcase-rolling"></i></div>
-                <h3>Package Tours</h3>
-                <p>Customized tour packages to popular destinations. From temple tours to beach holidays, we plan your perfect getaway.</p>
+                <h3>Pilgrimage & Package Tours</h3>
+                <p>Temple tours to Tirupati and Dharmasthala, plus custom South India itineraries sized to your group.</p>
             </div>
         </div>
         <div class="text-center mt-5">

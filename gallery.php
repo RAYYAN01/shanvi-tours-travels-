@@ -1,7 +1,7 @@
 <?php
 $page_title = "Fleet Gallery - Tempo Traveller, Mini Bus & Luxury Bus";
 $page_description = "Our real fleet: 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus & 49+1 Luxury Bus. Real photos, real seating capacity, all AC and GPS-tracked.";
-$page_keywords = "tempo traveller rental bangalore, 12 seater tempo traveller, mini bus rental bangalore, 21 seater bus, 33 seater bus rental, 49 seater luxury bus bangalore, group travel bus bangalore";
+$page_keywords = "mini bus rental bangalore, bus hire bangalore, 12 seater mini bus rental bangalore, 21 seater mini bus rental bangalore, 33 seater bus rental bangalore, 49 seater bus rental bangalore, mini bus with driver bangalore, bus rental near me";
 include 'includes/header.php';
 
 // Single source of truth for the fleet — feeds the gallery grid, the
@@ -70,8 +70,8 @@ $fleet = [
         <img src="images/fleet/bus-exterior.jpg" alt="Shanvi Tours & Travels fleet — Bus, 33+1 seater">
         <div class="carousel-overlay">
             <div class="hero-content">
-                <h1>Our Fleet Gallery</h1>
-                <p>Real vehicles, real seating capacity — from a 12-seater to a 49-seater</p>
+                <h1>Mini Bus & Bus Rental Fleet — Bangalore</h1>
+                <p>Real vehicles, real seating capacity — from a 12+1 seater to a 49+1 seater</p>
             </div>
         </div>
     </div>
@@ -82,7 +82,7 @@ $fleet = [
     <div class="container">
         <div class="section-title">
             <span class="eyebrow">Our Fleet</span>
-            <h2>Our Vehicle Collection</h2>
+            <h2>Mini Bus & Bus Rental Vehicles</h2>
             <p>Every photo below is our own vehicle — no stock photography</p>
         </div>
 
