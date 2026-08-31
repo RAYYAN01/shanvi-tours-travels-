@@ -21,13 +21,19 @@
     --accent-orange: var(--color-desertsun);
     --brand-navy: var(--color-burgundy);
     --dark-blue: var(--color-burgundy);
-    --light-bg: var(--color-desertsun);
+    /* Minimal UI: alternate sections use a near-white neutral, not a
+       saturated color block — Desert Sun stays reserved for small,
+       deliberate accents (badges, underlines) instead of whole-page
+       backgrounds. */
+    --light-bg: #faf7f6;
     --white: #ffffff;
     --text-dark: var(--color-burgundy);
     --text-light: #8a5a5f;
-    --shadow: 0 10px 30px rgba(86,4,35,0.10);
-    --shadow-hover: 0 18px 45px rgba(86,4,35,0.18);
+    --border-subtle: #ece4e2;
+    --shadow: 0 1px 2px rgba(86,4,35,0.06);
+    --shadow-hover: 0 4px 16px rgba(86,4,35,0.10);
     --ease: cubic-bezier(0.22, 1, 0.36, 1);
+    --radius: 10px;
 }
 
 ::selection {
@@ -152,7 +158,7 @@ html {
     transform: translateX(-50%);
     width: 0;
     height: 3px;
-    background: linear-gradient(90deg, var(--primary-color), var(--accent-orange));
+    background: var(--color-desertsun);
     transition: width 0.3s ease;
 }
 
@@ -240,58 +246,34 @@ html {
 
 .btn-hero {
     position: relative;
-    background: linear-gradient(135deg, var(--color-rosered), #b8002a);
+    background: var(--color-burgundy);
     color: white;
-    padding: 15px 40px;
-    font-size: 1.1rem;
+    padding: 14px 32px;
+    font-size: 1rem;
     font-weight: 600;
-    border-radius: 50px;
+    border-radius: var(--radius);
     border: none;
-    box-shadow: 0 8px 24px rgba(225,0,50,0.4), 0 0 0 1px rgba(255,255,255,0.08) inset;
-    transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
+    box-shadow: 0 1px 2px rgba(86,4,35,0.15);
+    transition: background 0.2s ease, box-shadow 0.2s ease;
     text-decoration: none;
     display: inline-block;
-    overflow: hidden;
-    animation: btnPulse 2.6s ease-in-out infinite;
-}
-
-.btn-hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -75%;
-    width: 50%;
-    height: 100%;
-    background: linear-gradient(115deg, transparent, rgba(255,255,255,0.65), transparent);
-    transform: skewX(-20deg);
-    transition: left 0.7s var(--ease);
-}
-
-.btn-hero:hover::before {
-    left: 125%;
 }
 
 .btn-hero:hover {
-    transform: translateY(-3px);
-    background: linear-gradient(135deg, #ff1a4d, var(--color-rosered));
-    box-shadow: 0 12px 36px rgba(225,0,50,0.65), 0 0 0 1px rgba(255,255,255,0.12) inset;
+    background: #3a0217;
+    box-shadow: 0 2px 8px rgba(86,4,35,0.25);
     color: white;
-}
-
-@keyframes btnPulse {
-    0%, 100% { box-shadow: 0 8px 24px rgba(225,0,50,0.4), 0 0 0 1px rgba(255,255,255,0.08) inset; }
-    50% { box-shadow: 0 8px 30px rgba(225,0,50,0.65), 0 0 0 1px rgba(255,255,255,0.08) inset; }
 }
 
 .btn-hero-outline {
     background: transparent;
     color: white;
-    padding: 15px 40px;
-    font-size: 1.1rem;
+    padding: 14px 32px;
+    font-size: 1rem;
     font-weight: 600;
-    border-radius: 50px;
-    border: 2px solid rgba(255,255,255,0.75);
-    transition: all 0.3s ease;
+    border-radius: var(--radius);
+    border: 1.5px solid rgba(255,255,255,0.75);
+    transition: all 0.2s ease;
     text-decoration: none;
     display: inline-block;
 }
@@ -394,7 +376,7 @@ html {
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, var(--primary-color), var(--accent-orange));
+    background: var(--color-maroon);
     border-radius: 2px;
 }
 
@@ -467,33 +449,18 @@ html {
 
 .service-card {
     background: white;
-    border-radius: 20px;
-    padding: 40px;
+    border: 1px solid var(--border-subtle);
+    border-radius: 14px;
+    padding: 36px;
     box-shadow: var(--shadow);
-    transition: all 0.4s ease;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
     position: relative;
     overflow: hidden;
 }
 
-.service-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    background: linear-gradient(90deg, var(--primary-color), var(--accent-orange));
-    transform: scaleX(0);
-    transition: transform 0.4s ease;
-}
-
 .service-card:hover {
-    transform: translateY(-10px);
+    border-color: var(--color-maroon);
     box-shadow: var(--shadow-hover);
-}
-
-.service-card:hover::before {
-    transform: scaleX(1);
 }
 
 /* Photo header for any .service-card that opts in with a .card-cover —
@@ -531,16 +498,16 @@ html {
 }
 
 .service-icon {
-    width: 80px;
-    height: 80px;
-    background: linear-gradient(135deg, var(--primary-color), var(--accent-orange));
+    width: 68px;
+    height: 68px;
+    background: rgba(86, 4, 35, 0.07);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 25px;
-    font-size: 2.5rem;
-    color: white;
+    margin-bottom: 22px;
+    font-size: 1.7rem;
+    color: var(--color-burgundy);
 }
 
 /* Alternate every 3rd icon in a grid to the accent Blue so icon-heavy
@@ -549,7 +516,8 @@ html {
    column, not the card, or it never matches. */
 .services-grid .service-card:nth-child(3n) .service-icon,
 .row.g-4 > [class*="col-"]:nth-child(3n) .service-icon {
-    background: linear-gradient(135deg, var(--secondary-color), var(--color-burgundy));
+    background: rgba(86, 4, 35, 0.08);
+    color: var(--color-burgundy);
 }
 
 .service-card h3 {
@@ -677,7 +645,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(86, 4, 35, 0.8), rgba(171, 102, 110, 0.8));
+    background: rgba(86, 4, 35, 0.72);
     opacity: 0;
     display: flex;
     align-items: center;
@@ -724,16 +692,16 @@ html {
 }
 
 .info-icon {
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, var(--primary-color), var(--accent-orange));
+    width: 46px;
+    height: 46px;
+    background: rgba(86, 4, 35, 0.07);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-size: 1.3rem;
-    margin-right: 20px;
+    color: var(--color-burgundy);
+    font-size: 1.15rem;
+    margin-right: 18px;
     flex-shrink: 0;
 }
 
@@ -800,40 +768,22 @@ html {
 
 .btn-submit {
     position: relative;
-    background: linear-gradient(135deg, var(--color-rosered), #b8002a);
+    background: var(--color-burgundy);
     color: white;
-    padding: 15px 40px;
+    padding: 14px 32px;
     border: none;
-    border-radius: 50px;
-    font-size: 1.1rem;
+    border-radius: var(--radius);
+    font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 5px 18px rgba(225,0,50,0.4);
-    overflow: hidden;
-}
-
-.btn-submit::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -75%;
-    width: 50%;
-    height: 100%;
-    background: linear-gradient(115deg, transparent, rgba(255,255,255,0.65), transparent);
-    transform: skewX(-20deg);
-    transition: left 0.7s var(--ease);
-}
-
-.btn-submit:hover::before {
-    left: 125%;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 1px 2px rgba(86,4,35,0.15);
 }
 
 .btn-submit:hover {
-    transform: translateY(-3px);
-    background: linear-gradient(135deg, #ff1a4d, var(--color-rosered));
+    background: #3a0217;
     color: white;
-    box-shadow: 0 10px 28px rgba(225,0,50,0.55);
+    box-shadow: 0 2px 8px rgba(86,4,35,0.25);
 }
 
 .faq-list {
@@ -907,7 +857,7 @@ html {
 }
 
 .footer {
-    background: linear-gradient(135deg, var(--color-burgundy), #200109);
+    background: var(--color-burgundy);
     color: white;
     padding: 60px 0 20px;
 }
@@ -977,23 +927,23 @@ html {
 }
 
 .whatsapp-btn {
-    width: 60px;
-    height: 60px;
+    width: 56px;
+    height: 56px;
     background: #25D366;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 2rem;
-    box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
-    transition: all 0.3s ease;
+    font-size: 1.6rem;
+    box-shadow: 0 2px 10px rgba(37, 211, 102, 0.3);
+    transition: background 0.2s ease, box-shadow 0.2s ease;
     text-decoration: none;
 }
 
 .whatsapp-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+    background: #1fb355;
+    box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
 }
 
 .call-float {
@@ -1004,24 +954,23 @@ html {
 }
 
 .call-btn {
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(135deg, var(--color-rosered), #b8002a);
+    width: 56px;
+    height: 56px;
+    background: var(--color-burgundy);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 1.8rem;
-    box-shadow: 0 5px 20px rgba(225, 0, 50, 0.4);
-    transition: all 0.3s ease;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 10px rgba(86,4,35,0.25);
+    transition: background 0.2s ease, box-shadow 0.2s ease;
     text-decoration: none;
-    animation: btnPulse 2.6s ease-in-out infinite;
 }
 
 .call-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 25px rgba(225, 0, 50, 0.55);
+    background: #3a0217;
+    box-shadow: 0 4px 16px rgba(86,4,35,0.35);
     color: white;
 }
 

@@ -26,13 +26,13 @@ include 'includes/header.php';
                 <div class="about-text">
                     <h3>Our Story</h3>
                     <p>
-                        Shanvi Tours & Travels began its journey over a decade ago with a simple mission: to provide reliable, comfortable, and affordable transportation solutions to the people of Bangalore and beyond. What started as a small operation with just a handful of vehicles has grown into one of the most trusted names in the tours and travels industry across South India.
+                        Shanvi Tours & Travels started over a decade ago in Bangalore with a handful of vehicles and one job to do: get people where they're going, on time, without drama. That's still the whole plan — it's just grown into a fleet that now covers five states.
                     </p>
                     <p>
-                        Founded by Mr. Pradeep H. B., our company was built on the principles of customer satisfaction, safety, and service excellence. Over the years, we've served thousands of satisfied customers, from corporate clients to families, students to senior citizens, each with unique travel needs and expectations.
+                        Pradeep H. B. founded the company and still runs it hands-on. Over the years that's meant corporate pickups at 5 AM, college trips to Goa, wedding convoys, and pilgrimage runs to temple towns — each one planned around who's actually riding, not a one-size-fits-all package.
                     </p>
                     <p>
-                        Today, we operate a modern fleet of over 50 well-maintained vehicles — from our 12+1 seater Tempo Traveller and 21+1 seater Mini Bus to our 33+1 seater Bus and 49+1 seater Luxury Bus. Our team of experienced, professional drivers knows every route across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh, ensuring you enjoy a smooth and pleasant journey every time.
+                        Today the fleet is four vehicles built for different group sizes — a 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus, and 49+1 Luxury Bus — driven by a team that knows the routes through Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh well enough to know which highway dhaba is actually worth the stop.
                     </p>
                 </div>
             </div>
@@ -58,10 +58,10 @@ include 'includes/header.php';
                     <div class="service-icon"><i class="fas fa-bullseye"></i></div>
                     <h3>Our Mission</h3>
                     <p>
-                        To provide exceptional transportation services that exceed customer expectations through reliability, safety, and professionalism. We strive to make every journey memorable by combining comfort with affordability, ensuring our customers reach their destinations satisfied and stress-free.
+                        Get every group — a family of four or a 49-seat wedding party — to where they're going safely, on schedule, in a vehicle that's actually the size they need. No overbooking a Tempo Traveller when a group needs a full bus, no upselling a Luxury Bus to a group of six.
                     </p>
                     <p>
-                        We are committed to maintaining the highest standards in vehicle maintenance, driver training, and customer service, making us the preferred choice for travelers across South India.
+                        That means vehicles that get serviced on schedule, drivers who know the roads (not just the map), and rates you can see before you book — not a quote that changes at pickup.
                     </p>
                 </div>
             </div>
@@ -70,10 +70,10 @@ include 'includes/header.php';
                     <div class="service-icon"><i class="fas fa-eye"></i></div>
                     <h3>Our Vision</h3>
                     <p>
-                        To become South India's most trusted and preferred transportation service provider, known for innovation, excellence, and customer-centric solutions. We envision expanding our services while maintaining the personal touch that has made us successful.
+                        Grow the fleet without losing what a small operator does well — Pradeep still takes booking calls, and repeat customers still get the same driver when we can arrange it. We'd rather stay the company people call directly than become a booking app with a call center.
                     </p>
                     <p>
-                        Our goal is to set new benchmarks in the industry by embracing technology, sustainable practices, and continuous improvement, all while keeping our focus on what matters most - our customers' satisfaction and safety.
+                        As we add vehicles and routes, safety and honest pricing don't get renegotiated to hit a growth number.
                     </p>
                 </div>
             </div>

@@ -31,15 +31,15 @@ include 'includes/header.php';
         </div>
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
-                <h3 style="color: var(--primary-color); font-size: 2.5rem; margin-bottom: 1.5rem;">Experience the Difference</h3>
+                <h3 style="color: var(--primary-color); font-size: 2.5rem; margin-bottom: 1.5rem;">Built Around Your Group, Not a Fixed Package</h3>
                 <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem;">
-                    At Shanvi Tours & Travels, we understand that your journey matters. With more than ten years of dedicated service in Bangalore and across South India, we've built our reputation on reliability, safety, and exceptional customer care.
+                    We've been running vehicles out of Bangalore for over ten years — long enough to know a 6 AM airport pickup and a two-week temple tour need completely different things from a driver.
                 </p>
                 <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem;">
-                    Whether you're traveling for business or pleasure, commuting daily or planning an outstation adventure, our professional team and well-maintained fleet ensure you reach your destination comfortably and on time.
+                    Book a same-day city cab or a 49-seater for a college trip — same team, same fixed pricing, no surprise charges at drop-off.
                 </p>
                 <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-                    From corporate transport solutions to family vacation packages, we offer comprehensive services tailored to meet your unique travel needs across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh.
+                    We run daily employee shuttles for offices, one-off pickups for families, and everything in between across Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh.
                 </p>
                 <a href="about.php" class="btn-hero">Discover Our Story</a>
             </div>
