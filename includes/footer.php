@@ -18,6 +18,7 @@
                     <a href="index.php">Home</a>
                     <a href="about.php">About Us</a>
                     <a href="services.php">Our Services</a>
+                    <a href="fleet.php">Our Fleet</a>
                     <a href="gallery.php">Gallery</a>
                     <a href="contact.php">Contact</a>
                 </div>
@@ -67,6 +68,7 @@
         'index.php'    => 'Home',
         'about.php'    => 'About Us',
         'services.php' => 'Our Services',
+        'fleet.php'    => 'Our Fleet',
         'gallery.php'  => 'Gallery',
         'contact.php'  => 'Contact',
     ];

@@ -145,6 +145,9 @@ $og_image           = $site_url . '/images/img_1.jpeg';
                         <a class="nav-link" href="services.php">Our Services</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="fleet.php">Our Fleet</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="gallery.php">Gallery</a>
                     </li>
                     <li class="nav-item">
