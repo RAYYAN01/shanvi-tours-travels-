@@ -167,9 +167,9 @@ include 'includes/header.php';
             <p>Visit our office in Bangalore</p>
         </div>
         <div style="border-radius: 20px; overflow: hidden; box-shadow: var(--shadow);">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7777777777777!2d77.5!3d12.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU0JzAwLjAiTiA3N8KwMzAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" 
-                width="100%" 
+            <iframe
+                src="https://www.google.com/maps?q=Shanvi+Tours+%26+Travels%2C+SMV+Layout%2C+Nagadevanahalli%2C+Bangalore+560056&output=embed"
+                width="100%"
                 height="450" 
                 style="border:0;" 
                 allowfullscreen="" 
