@@ -4,34 +4,27 @@
 :root {
     /* Brand palette, as supplied — kept as raw tokens so any future
        reassignment only has to happen in one place. */
-    --color-burgundy:  #560423;
-    --color-rosered:   #e10032;
-    --color-desertsun: #fe995d;
-    --color-maroon:    #ab666e;
+    /* Trust + action: blue reads as reliable/professional (the standard
+       choice for transport/logistics/airlines); amber is the warm
+       action accent that draws the eye to booking CTAs. Navy anchors
+       dark surfaces and body text. */
+    --color-burgundy:  #0d2c45;
+    --color-rosered:   #14477e;
+    --color-desertsun: #f2a93b;
+    --color-maroon:    #2e7cd6;
 
-    /* Semantic roles, picked by contrast rather than by swapping hex
-       codes 1:1: Rose Red is the flagship — it clears 4.9:1 on white,
-       so unlike a typical "vibrant accent" it's safe as real body/link
-       text, not just decoration. Maroon (4.3:1) is kept to larger
-       text and dark-surface accents. Desert Sun is a light-surface
-       tint (2.1:1 on white — not a text color). Burgundy is near-black
-       (14.6:1) and anchors every dark surface. */
     --primary-color: var(--color-rosered);
     --secondary-color: var(--color-maroon);
     --accent-orange: var(--color-desertsun);
     --brand-navy: var(--color-burgundy);
     --dark-blue: var(--color-burgundy);
-    /* Minimal UI: alternate sections use a near-white neutral, not a
-       saturated color block — Desert Sun stays reserved for small,
-       deliberate accents (badges, underlines) instead of whole-page
-       backgrounds. */
-    --light-bg: #faf7f6;
+    --light-bg: #f4f8fb;
     --white: #ffffff;
     --text-dark: var(--color-burgundy);
-    --text-light: #8a5a5f;
-    --border-subtle: #ece4e2;
-    --shadow: 0 1px 2px rgba(86,4,35,0.06);
-    --shadow-hover: 0 4px 16px rgba(86,4,35,0.10);
+    --text-light: #5b7085;
+    --border-subtle: #e2e8ee;
+    --shadow: 0 1px 2px rgba(13,44,69,0.06);
+    --shadow-hover: 0 4px 16px rgba(13,44,69,0.10);
     --ease: cubic-bezier(0.22, 1, 0.36, 1);
     --radius: 10px;
 }
@@ -78,7 +71,7 @@ html {
 .navbar.navbar-scrolled {
     background: rgba(255, 255, 255, 0.98);
     backdrop-filter: blur(10px);
-    box-shadow: 0 2px 20px rgba(86,4,35,0.08);
+    box-shadow: 0 2px 20px rgba(13,44,69,0.08);
 }
 
 .navbar .container {
@@ -132,7 +125,7 @@ html {
     position: relative;
     transition: color 0.3s ease;
     line-height: 1;
-    text-shadow: 0 1px 4px rgba(86,4,35,0.5);
+    text-shadow: 0 1px 4px rgba(13,44,69,0.5);
 }
 
 .navbar.navbar-scrolled .navbar-nav .nav-link {
@@ -172,7 +165,7 @@ html {
     padding: 0.25rem 0.5rem;
     border: none;
     margin: 0;
-    filter: brightness(0) invert(1) drop-shadow(0 1px 3px rgba(86,4,35,0.5));
+    filter: brightness(0) invert(1) drop-shadow(0 1px 3px rgba(13,44,69,0.5));
     transition: filter 0.35s ease;
 }
 
@@ -232,7 +225,7 @@ html {
     font-size: clamp(2.25rem, 3.2vw + 1.5rem, 5rem);
     font-weight: 900;
     margin-bottom: 1.8rem;
-    text-shadow: 3px 3px 10px rgba(86,4,35,0.4);
+    text-shadow: 3px 3px 10px rgba(13,44,69,0.4);
     letter-spacing: 2px;
     line-height: 1.15;
 }
@@ -241,28 +234,28 @@ html {
     font-size: clamp(1rem, 0.7vw + 0.85rem, 1.6rem);
     margin-bottom: 2.5rem;
     font-weight: 300;
-    text-shadow: 2px 2px 8px rgba(86,4,35,0.4);
+    text-shadow: 2px 2px 8px rgba(13,44,69,0.4);
 }
 
 .btn-hero {
     position: relative;
-    background: var(--color-burgundy);
-    color: white;
+    background: var(--color-desertsun);
+    color: var(--color-burgundy);
     padding: 14px 32px;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: var(--radius);
     border: none;
-    box-shadow: 0 1px 2px rgba(86,4,35,0.15);
+    box-shadow: 0 1px 2px rgba(13,44,69,0.15);
     transition: background 0.2s ease, box-shadow 0.2s ease;
     text-decoration: none;
     display: inline-block;
 }
 
 .btn-hero:hover {
-    background: #3a0217;
-    box-shadow: 0 2px 8px rgba(86,4,35,0.25);
-    color: white;
+    background: #e0940c;
+    box-shadow: 0 2px 8px rgba(13,44,69,0.25);
+    color: var(--color-burgundy);
 }
 
 .btn-hero-outline {
@@ -501,7 +494,7 @@ html {
 .service-icon {
     width: 68px;
     height: 68px;
-    background: rgba(86, 4, 35, 0.07);
+    background: rgba(13, 44, 69, 0.07);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -517,7 +510,7 @@ html {
    column, not the card, or it never matches. */
 .services-grid .service-card:nth-child(3n) .service-icon,
 .row.g-4 > [class*="col-"]:nth-child(3n) .service-icon {
-    background: rgba(86, 4, 35, 0.08);
+    background: rgba(13, 44, 69, 0.08);
     color: var(--color-burgundy);
 }
 
@@ -579,7 +572,7 @@ html {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(86, 4, 35, 0) 40%, rgba(86, 4, 35, 0.78) 100%);
+    background: linear-gradient(180deg, rgba(13, 44, 69, 0) 40%, rgba(13, 44, 69, 0.78) 100%);
 }
 
 /* Not scoped to .trip-image — also used standalone inside .gallery-item
@@ -646,7 +639,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(86, 4, 35, 0.72);
+    background: rgba(13, 44, 69, 0.72);
     opacity: 0;
     display: flex;
     align-items: center;
@@ -695,7 +688,7 @@ html {
 .info-icon {
     width: 46px;
     height: 46px;
-    background: rgba(86, 4, 35, 0.07);
+    background: rgba(13, 44, 69, 0.07);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -769,22 +762,22 @@ html {
 
 .btn-submit {
     position: relative;
-    background: var(--color-burgundy);
-    color: white;
+    background: var(--color-desertsun);
+    color: var(--color-burgundy);
     padding: 14px 32px;
     border: none;
     border-radius: var(--radius);
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     transition: background 0.2s ease, box-shadow 0.2s ease;
-    box-shadow: 0 1px 2px rgba(86,4,35,0.15);
+    box-shadow: 0 1px 2px rgba(13,44,69,0.15);
 }
 
 .btn-submit:hover {
-    background: #3a0217;
-    color: white;
-    box-shadow: 0 2px 8px rgba(86,4,35,0.25);
+    background: #e0940c;
+    color: var(--color-burgundy);
+    box-shadow: 0 2px 8px rgba(13,44,69,0.25);
 }
 
 .faq-list {
@@ -964,14 +957,14 @@ html {
     justify-content: center;
     color: white;
     font-size: 1.5rem;
-    box-shadow: 0 2px 10px rgba(86,4,35,0.25);
+    box-shadow: 0 2px 10px rgba(13,44,69,0.25);
     transition: background 0.2s ease, box-shadow 0.2s ease;
     text-decoration: none;
 }
 
 .call-btn:hover {
-    background: #3a0217;
-    box-shadow: 0 4px 16px rgba(86,4,35,0.35);
+    background: #071a29;
+    box-shadow: 0 4px 16px rgba(13,44,69,0.35);
     color: white;
 }
 
@@ -1000,7 +993,7 @@ html {
        dropdown links would float unreadably over the photo. */
     .navbar-collapse.show,
     .navbar-collapse.collapsing {
-        background: rgba(86, 4, 35, 0.95);
+        background: rgba(13, 44, 69, 0.95);
         border-radius: 0 0 16px 16px;
         padding: 10px 20px 20px;
         margin: 0 -16px;
