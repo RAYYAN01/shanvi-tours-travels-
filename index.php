@@ -31,7 +31,7 @@ include 'includes/header.php';
         </div>
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
-                <h3 style="color: var(--primary-color); font-size: 2.5rem; margin-bottom: 1.5rem;">Built Around Your Group, Not a Fixed Package</h3>
+                <h3 style="color: var(--primary-color); font-size: clamp(1.4rem, 3.5vw, 2.5rem); margin-bottom: 1.5rem;">Built Around Your Group, Not a Fixed Package</h3>
                 <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem;">
                     We've been running vehicles out of Bangalore for over ten years — long enough to know a 6 AM airport pickup and a two-week temple tour need completely different things from a driver.
                 </p>
@@ -294,8 +294,8 @@ include 'includes/header.php';
 <!-- Call to Action -->
 <section class="section-padding" style="background: var(--brand-navy); color: white;">
     <div class="container text-center">
-        <h2 style="color: white; font-size: 3rem; margin-bottom: 1.5rem;">Ready to Start Your Journey?</h2>
-        <p style="font-size: 1.3rem; margin-bottom: 2.5rem;">Contact us today for bookings or inquiries. We're available 24/7 to serve you.</p>
+        <h2 style="color: white; font-size: clamp(1.6rem, 4vw, 3rem); margin-bottom: 1.5rem;">Ready to Start Your Journey?</h2>
+        <p style="font-size: clamp(1rem, 2.5vw, 1.3rem); margin-bottom: 2.5rem;">Contact us today for bookings or inquiries. We're available 24/7 to serve you.</p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
             <a href="contact.php" class="btn-hero">Contact Us</a>
             <a href="tel:9611120023" class="btn-hero-outline">Call Now: 9611120023</a>

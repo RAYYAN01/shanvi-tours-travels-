@@ -280,8 +280,8 @@ include 'includes/header.php';
 <!-- Call to Action -->
 <section class="section-padding" style="background: var(--brand-navy); color: white;">
     <div class="container text-center">
-        <h2 style="color: white; font-size: 3rem; margin-bottom: 1.5rem;">Partner With Us Today</h2>
-        <p style="font-size: 1.3rem; margin-bottom: 2.5rem;">Experience the difference that over a decade of expertise makes</p>
+        <h2 style="color: white; font-size: clamp(1.6rem, 4vw, 3rem); margin-bottom: 1.5rem;">Partner With Us Today</h2>
+        <p style="font-size: clamp(1rem, 2.5vw, 1.3rem); margin-bottom: 2.5rem;">Experience the difference that over a decade of expertise makes</p>
         <a href="contact.php" class="btn-hero">Get in Touch</a>
     </div>
 </section>

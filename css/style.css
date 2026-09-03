@@ -26,7 +26,7 @@
     --shadow: 0 1px 2px rgba(13,44,69,0.06);
     --shadow-hover: 0 4px 16px rgba(13,44,69,0.10);
     --ease: cubic-bezier(0.22, 1, 0.36, 1);
-    --radius: 10px;
+    --radius: 50px;
 }
 
 ::selection {
@@ -293,6 +293,37 @@ html {
     border-color: white;
     color: white;
     transform: translateY(-3px);
+}
+
+.btn-price {
+    position: relative;
+    display: inline-block;
+    background: #e2233a;
+    color: white;
+    padding: 12px 26px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    border-radius: var(--radius);
+    border: none;
+    text-decoration: none;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(226,35,58,0.45);
+    animation: priceGlow 2.2s ease-in-out infinite;
+}
+
+.btn-price::before {
+    content: '';
+    position: absolute;
+    top: 0; left: -75%; width: 50%; height: 100%;
+    background: linear-gradient(115deg, transparent, rgba(255,255,255,0.6), transparent);
+    transform: skewX(-20deg);
+    animation: priceShine 2.4s ease-in-out infinite;
+}
+
+@keyframes priceShine { 0%,50% { left: -75%; } 100% { left: 125%; } }
+@keyframes priceGlow {
+    0%, 100% { box-shadow: 0 2px 12px rgba(226,35,58,0.45); }
+    50% { box-shadow: 0 2px 20px rgba(226,35,58,0.75); }
 }
 
 /* Floating trust badge, e.g. overlapping an image */

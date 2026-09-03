@@ -242,8 +242,8 @@ include 'includes/header.php';
 <!-- Call to Action -->
 <section class="section-padding" style="background: var(--brand-navy); color: white;">
     <div class="container text-center">
-        <h2 style="color: white; font-size: 3rem; margin-bottom: 1.5rem;">Ready to Book a Bus?</h2>
-        <p style="font-size: 1.3rem; margin-bottom: 2.5rem;">Tell us your group size and dates — we'll tell you which vehicle fits and what it costs</p>
+        <h2 style="color: white; font-size: clamp(1.6rem, 4vw, 3rem); margin-bottom: 1.5rem;">Ready to Book a Bus?</h2>
+        <p style="font-size: clamp(1rem, 2.5vw, 1.3rem); margin-bottom: 2.5rem;">Tell us your group size and dates — we'll tell you which vehicle fits and what it costs</p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
             <a href="contact.php" class="btn-hero">Request a Quote</a>
             <a href="tel:9611120023" class="btn-hero-outline">Call: 9611120023</a>

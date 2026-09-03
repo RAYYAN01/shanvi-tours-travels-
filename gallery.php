@@ -135,6 +135,7 @@ $fleet = [
                     <h3><?php echo htmlspecialchars($v['name']); ?> — <?php echo htmlspecialchars($v['seats']); ?></h3>
                     <p><?php echo htmlspecialchars($v['desc']); ?></p>
                     <p style="color: var(--primary-color); font-weight: 600; margin-top: 0.5rem;"><?php echo htmlspecialchars($v['ideal']); ?></p>
+                    <a href="contact.php" class="btn-price" style="margin-top: 1rem;">Price on Request</a>
                 </div>
             </div>
             <?php endforeach; ?>
@@ -238,8 +239,8 @@ $fleet = [
 <!-- Call to Action -->
 <section class="section-padding" style="background: var(--brand-navy); color: white;">
     <div class="container text-center">
-        <h2 style="color: white; font-size: 3rem; margin-bottom: 1.5rem;">Ready to Book a Vehicle?</h2>
-        <p style="font-size: 1.3rem; margin-bottom: 2.5rem;">Choose your preferred vehicle and start your journey with us today</p>
+        <h2 style="color: white; font-size: clamp(1.6rem, 4vw, 3rem); margin-bottom: 1.5rem;">Ready to Book a Vehicle?</h2>
+        <p style="font-size: clamp(1rem, 2.5vw, 1.3rem); margin-bottom: 2.5rem;">Choose your preferred vehicle and start your journey with us today</p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
             <a href="contact.php" class="btn-hero">Book Now</a>
             <a href="tel:9611120023" class="btn-hero-outline">Call: 9611120023</a>
