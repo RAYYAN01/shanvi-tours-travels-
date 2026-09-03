@@ -239,21 +239,40 @@ html {
     position: relative;
     background: var(--color-desertsun);
     color: var(--color-burgundy);
-    padding: 14px 32px;
+    padding: 14px 30px;
     font-size: 1rem;
     font-weight: 700;
+    letter-spacing: 0.01em;
     border-radius: var(--radius);
     border: none;
     box-shadow: 0 1px 2px rgba(13,44,69,0.15);
-    transition: background 0.2s ease, box-shadow 0.2s ease;
+    transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
     text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0;
+}
+
+.btn-hero::after {
+    content: '\2192';
     display: inline-block;
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-width 0.25s ease, opacity 0.2s ease, margin-left 0.25s ease;
 }
 
 .btn-hero:hover {
     background: #e0940c;
-    box-shadow: 0 2px 8px rgba(13,44,69,0.25);
+    box-shadow: 0 4px 14px rgba(13,44,69,0.3);
     color: var(--color-burgundy);
+    transform: translateY(-2px);
+}
+
+.btn-hero:hover::after {
+    max-width: 20px;
+    opacity: 1;
+    margin-left: 8px;
 }
 
 .btn-hero-outline {
@@ -762,20 +781,39 @@ html {
     position: relative;
     background: var(--color-desertsun);
     color: var(--color-burgundy);
-    padding: 14px 32px;
+    padding: 14px 30px;
     border: none;
     border-radius: var(--radius);
     font-size: 1rem;
     font-weight: 700;
+    letter-spacing: 0.01em;
     cursor: pointer;
-    transition: background 0.2s ease, box-shadow 0.2s ease;
+    transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
     box-shadow: 0 1px 2px rgba(13,44,69,0.15);
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-submit::after {
+    content: '\2192';
+    display: inline-block;
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-width 0.25s ease, opacity 0.2s ease, margin-left 0.25s ease;
 }
 
 .btn-submit:hover {
     background: #e0940c;
     color: var(--color-burgundy);
-    box-shadow: 0 2px 8px rgba(13,44,69,0.25);
+    box-shadow: 0 4px 14px rgba(13,44,69,0.3);
+    transform: translateY(-2px);
+}
+
+.btn-submit:hover::after {
+    max-width: 20px;
+    opacity: 1;
+    margin-left: 8px;
 }
 
 .faq-list {
@@ -864,7 +902,7 @@ html {
 .footer-section h4 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color: var(--accent-orange);
+    color: #7ba8db;
 }
 
 .footer-section p,
@@ -877,7 +915,7 @@ html {
 }
 
 .footer-section a:hover {
-    color: var(--color-desertsun);
+    color: white;
     padding-left: 5px;
 }
 
@@ -899,7 +937,7 @@ html {
 }
 
 .social-links a:hover {
-    background: var(--accent-orange);
+    background: #7ba8db;
     color: var(--color-burgundy);
     transform: translateY(-3px);
 }
