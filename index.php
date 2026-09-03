@@ -292,7 +292,7 @@ include 'includes/header.php';
 </section>
 
 <!-- Call to Action -->
-<section class="section-padding" style="background: linear-gradient(135deg, var(--brand-navy), var(--secondary-color)); color: white;">
+<section class="section-padding" style="background: var(--brand-navy); color: white;">
     <div class="container text-center">
         <h2 style="color: white; font-size: 3rem; margin-bottom: 1.5rem;">Ready to Start Your Journey?</h2>
         <p style="font-size: 1.3rem; margin-bottom: 2.5rem;">Contact us today for bookings or inquiries. We're available 24/7 to serve you.</p>
