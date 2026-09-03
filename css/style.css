@@ -374,6 +374,12 @@ html {
     padding: 80px 0;
 }
 
+/* For a page's first section when it isn't a full-bleed hero — clears
+   the fixed transparent navbar instead of sitting behind it. */
+.section-padding-nav-offset {
+    padding-top: 160px;
+}
+
 .section-title {
     text-align: center;
     margin-bottom: 60px;
@@ -402,6 +408,7 @@ html {
     display: inline-block;
 }
 
+.section-title h1,
 .section-title h2 {
     font-size: clamp(1.75rem, 1.6vw + 1.25rem, 3rem);
     color: var(--brand-navy);
@@ -410,6 +417,7 @@ html {
     display: inline-block;
 }
 
+.section-title h1::after,
 .section-title h2::after {
     content: '';
     position: absolute;
@@ -1053,6 +1061,10 @@ html {
 @media (max-width: 768px) {
     html {
         scroll-padding-top: 80px;
+    }
+
+    .section-padding-nav-offset {
+        padding-top: 110px;
     }
 
     /* The open mobile menu needs its own solid backdrop — the navbar

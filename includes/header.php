@@ -123,7 +123,7 @@ $og_image           = $site_url . '/images/img_1.jpeg';
     }
     </script>
 </head>
-<body>
+<body<?php echo !empty($no_hero) ? ' data-no-hero="true"' : ''; ?>>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">

@@ -2,29 +2,17 @@
 $page_title = "Our Fleet - Tempo Traveller, Mini Bus, Bus & Luxury Bus";
 $page_description = "Our fleet: 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus & 49+1 Luxury Bus. Real vehicles, real seating capacity, all AC and GPS-tracked. Price on request.";
 $page_keywords = "mini bus rental bangalore, bus hire bangalore, 12 seater mini bus rental bangalore, 21 seater mini bus rental bangalore, 33 seater bus rental bangalore, 49 seater bus rental bangalore, mini bus with driver bangalore, bus rental near me";
+$no_hero = true;
 include 'includes/header.php';
 include 'includes/fleet-data.php';
 ?>
 
-<!-- Page Header -->
-<section class="hero-section">
-    <div class="carousel-item active">
-        <img src="images/fleet/luxury-bus-exterior.jpg" alt="Shanvi Tours & Travels fleet — Luxury Bus, 49+1 seater">
-        <div class="carousel-overlay">
-            <div class="hero-content">
-                <h1>Our Fleet</h1>
-                <p>Four vehicle sizes, one call away — from a 12+1 seater to a 49+1 seater</p>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Vehicle Categories -->
-<section class="section-padding">
+<section class="section-padding section-padding-nav-offset">
     <div class="container">
         <div class="section-title">
             <span class="eyebrow">Pick Your Fit</span>
-            <h2>Our Fleet at a Glance</h2>
+            <h1>Our Fleet at a Glance</h1>
             <p>Four vehicle sizes, one call away — choose by group size, not guesswork</p>
         </div>
         <div class="row g-4">

@@ -4,7 +4,10 @@
 (function() {
     const navbar = document.querySelector('.navbar');
     if (!navbar) return;
-    const applyState = () => navbar.classList.toggle('navbar-scrolled', window.pageYOffset > 60);
+    // Pages without a full-bleed hero (data-no-hero on <body>) stay solid
+    // from the start — there's no dark photo for the transparent bar to sit over.
+    const forceSolid = document.body.dataset.noHero === 'true';
+    const applyState = () => navbar.classList.toggle('navbar-scrolled', forceSolid || window.pageYOffset > 60);
     window.addEventListener('scroll', applyState);
     applyState(); // run once on load in case the page opens mid-scroll (e.g. back navigation)
 })();
