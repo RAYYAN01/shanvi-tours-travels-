@@ -75,6 +75,32 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- Areas We Serve — real, visible locality coverage for local SEO/GEO,
+     not just a meta tag. Keep this list in sync with the areaServed
+     entries in includes/header.php's TravelAgency schema. -->
+<section class="section-padding">
+    <div class="container">
+        <div class="section-title">
+            <span class="eyebrow">Where We Pick Up</span>
+            <h2>Areas We Serve Across Bangalore</h2>
+            <p>Tempo Traveller, Mini Bus & Bus pickup and drop available in every corner of the city</p>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; max-width: 900px; margin: 0 auto;">
+            <?php
+            $bangalore_areas = [
+                'Whitefield', 'Electronic City', 'Koramangala', 'Indiranagar', 'HSR Layout',
+                'Marathahalli', 'Jayanagar', 'JP Nagar', 'BTM Layout', 'Yelahanka',
+                'Hebbal', 'Banashankari', 'Malleshwaram', 'Rajajinagar', 'Sarjapur Road',
+                'Bannerghatta Road', 'KR Puram', 'Bellandur', 'RT Nagar', 'Yeshwanthpur',
+            ];
+            foreach ($bangalore_areas as $area): ?>
+            <span style="background: var(--light-bg); color: var(--text-dark); border: 1px solid var(--border-subtle); border-radius: var(--radius); padding: 0.5rem 1.1rem; font-size: 0.92rem; font-weight: 500;"><?php echo htmlspecialchars($area); ?></span>
+            <?php endforeach; ?>
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; color: var(--text-light);">Don't see your area? We cover all of Bangalore and Karnataka — <a href="contact.php" style="color: var(--primary-color); font-weight: 600;">just ask</a>.</p>
+    </div>
+</section>
+
 <!-- Services Preview -->
 <section class="section-padding" style="background: var(--light-bg);">
     <div class="container">
@@ -145,7 +171,7 @@ include 'includes/header.php';
         <div class="section-title">
             <span class="eyebrow">Where We Go</span>
             <h2>Our Frequent Destinations</h2>
-            <p>Popular routes we travel regularly across South India</p>
+            <p>Popular routes we travel regularly, mostly across South India</p>
         </div>
         <div class="trips-grid">
             <!-- Karnataka -->
