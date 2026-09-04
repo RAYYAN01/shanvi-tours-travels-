@@ -236,7 +236,7 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Tamil Nadu</span>
-                    <img src="images/destinations/pondicherry.jpg" alt="Beach promenade in Pondicherry's French Quarter" loading="lazy" width="400" height="250">
+                    <img src="images/destinations/pondicherry.jpg" alt="Sunrise over the sea at Pondicherry, Tamil Nadu" loading="lazy" width="400" height="250">
                 </div>
                 <div class="trip-content">
                     <h4>Pondicherry</h4>
