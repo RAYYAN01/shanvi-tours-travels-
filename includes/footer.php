@@ -44,6 +44,7 @@
             
             <div class="footer-bottom">
                 <p>&copy; <?php echo date('Y'); ?> Shanvi Tours & Travels. All Rights Reserved.</p>
+                <p style="font-size: 0.75rem; opacity: 0.6; margin-top: 0.4rem;">Mountain photo on the home page: LiteraryDP / Wikimedia Commons (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">CC BY-SA 4.0</a>)</p>
             </div>
         </div>
     </footer>

@@ -268,7 +268,7 @@ include 'includes/header.php';
             <div class="trip-card">
                 <div class="trip-image">
                     <span class="trip-badge">Andhra Pradesh</span>
-                    <img src="images/destinations/nellore.jpg" alt="Temple heritage in Nellore, Andhra Pradesh" loading="lazy" width="400" height="250">
+                    <img src="images/destinations/nellore.jpg" alt="Sunrise over the Western Ghats mountains, en route to Nellore, Andhra Pradesh" loading="lazy" width="400" height="250">
                 </div>
                 <div class="trip-content">
                     <h4>Nellore</h4>
