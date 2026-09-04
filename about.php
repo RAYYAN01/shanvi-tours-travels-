@@ -198,7 +198,7 @@ include 'includes/header.php';
     <div class="container">
         <div class="section-title">
             <h2>Our Coverage Area</h2>
-            <p>Serving across five states in South India</p>
+            <p>Based in Bangalore, serving destinations all across India</p>
         </div>
         <div class="row g-4">
             <div class="col-md-4">
@@ -269,7 +269,7 @@ include 'includes/header.php';
                     </div>
                     <div class="trip-content">
                         <h4>Custom Routes</h4>
-                        <p>Have a specific destination in mind? We can arrange customized trips to any location across South India based on your requirements.</p>
+                        <p>Have a specific destination in mind? We can arrange customized trips to any location across India based on your requirements.</p>
                     </div>
                 </div>
             </div>

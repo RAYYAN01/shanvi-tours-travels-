@@ -19,7 +19,7 @@ include 'includes/fleet-data.php';
             <?php foreach ($fleet as $v): ?>
             <div class="col-md-6">
                 <div class="service-card">
-                    <div class="card-cover">
+                    <div class="card-cover card-cover--vehicle">
                         <img src="<?php echo $v['exterior']; ?>" alt="<?php echo htmlspecialchars($v['name'] . ', ' . $v['seats']); ?>" loading="lazy" width="400" height="200">
                     </div>
                     <div class="service-icon"><i class="fas <?php echo $v['icon']; ?>"></i></div>

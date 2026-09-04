@@ -536,6 +536,22 @@ html {
     transition: transform 0.5s ease;
 }
 
+/* Vehicle front-view photos are tall/narrow — cropping them with
+   object-fit: cover cuts off the sides of the bus. Show the whole
+   vehicle instead, letterboxed on a neutral background. */
+.card-cover--vehicle {
+    height: 220px;
+    background: var(--light-bg);
+}
+
+.card-cover--vehicle img {
+    object-fit: contain;
+}
+
+.service-card:hover .card-cover--vehicle img {
+    transform: none;
+}
+
 .service-card:hover .card-cover img {
     transform: scale(1.08);
 }

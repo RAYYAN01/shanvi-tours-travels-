@@ -95,6 +95,7 @@ $og_image           = $site_url . '/images/img_1.jpeg';
             "closes": "23:59"
         },
         "areaServed": [
+            { "@type": "Country", "name": "India" },
             { "@type": "City", "name": "Bangalore" },
             { "@type": "State", "name": "Karnataka" },
             { "@type": "State", "name": "Kerala" },

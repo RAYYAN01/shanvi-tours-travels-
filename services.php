@@ -261,8 +261,8 @@ include 'includes/header.php';
         { "@type": "ListItem", "position": 2, "item": { "@type": "Service", "name": "Corporate Bus Rental", "serviceType": "Bus rental", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "Bangalore" } },
         { "@type": "ListItem", "position": 3, "item": { "@type": "Service", "name": "Wedding Bus Rental", "serviceType": "Bus rental", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "Bangalore" } },
         { "@type": "ListItem", "position": 4, "item": { "@type": "Service", "name": "School & College Trip Bus Rental", "serviceType": "Bus rental", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "Bangalore" } },
-        { "@type": "ListItem", "position": 5, "item": { "@type": "Service", "name": "Outstation Bus Rental", "serviceType": "Bus rental", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "South India" } },
-        { "@type": "ListItem", "position": 6, "item": { "@type": "Service", "name": "Pilgrimage & Package Tour Bus Rental", "serviceType": "Bus rental", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "South India" } }
+        { "@type": "ListItem", "position": 5, "item": { "@type": "Service", "name": "Outstation Bus Rental", "serviceType": "Bus rental", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "India" } },
+        { "@type": "ListItem", "position": 6, "item": { "@type": "Service", "name": "Pilgrimage & Package Tour Bus Rental", "serviceType": "Bus rental", "provider": { "@type": "TravelAgency", "name": "Shanvi Tours & Travels" }, "areaServed": "India" } }
     ]
 }
 </script>

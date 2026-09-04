@@ -66,7 +66,7 @@ include 'includes/header.php';
                         <p>Satisfaction Rate</p>
                     </div>
                     <div class="stat-item">
-                        <h4>5 States</h4>
+                        <h4>All India</h4>
                         <p>Coverage Area</p>
                     </div>
                 </div>
