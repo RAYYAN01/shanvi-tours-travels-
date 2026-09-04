@@ -134,7 +134,7 @@ include 'includes/header.php';
                     <div class="card-cover">
                         <img src="images/destinations/munnar.jpg" alt="Rolling tea estates in Munnar" loading="lazy" width="400" height="200">
                     </div>
-                    <div class="service-icon" style="margin: 0 auto 20px;"><i class="fas fa-dollar-sign"></i></div>
+                    <div class="service-icon" style="margin: 0 auto 20px;"><i class="fas fa-indian-rupee-sign"></i></div>
                     <h3>Competitive Pricing</h3>
                     <p>Transparent, affordable rates with no hidden charges. Quality service doesn't have to break the bank.</p>
                 </div>
