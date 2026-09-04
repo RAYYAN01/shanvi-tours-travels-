@@ -1,7 +1,7 @@
 <?php
 $page_title = "Mini Bus & Bus Rental Bangalore";
 $page_description = "Mini bus & bus rental in Bangalore since 2013. 12+1 to 49+1 seater vehicles with driver for corporate, weddings, school trips & outstation tours.";
-$page_keywords = "mini bus rental bangalore, bus rental bangalore, bus hire bangalore, mini bus hire bangalore, tourist bus rental bangalore, bus rental near me, mini bus with driver bangalore, corporate bus rental bangalore, wedding bus rental bangalore";
+$page_keywords = "tempo traveller rental bangalore, tempo traveller hire bangalore, 12 seater tempo traveller bangalore, mini bus rental bangalore, mini bus hire bangalore, 21 seater mini bus bangalore, bus rental bangalore, bus hire bangalore, 33 seater bus rental bangalore, luxury bus rental bangalore, 49 seater bus rental bangalore, tourist bus rental bangalore, bus rental near me, mini bus with driver bangalore, tempo traveller with driver bangalore, corporate bus rental bangalore, employee transport bus bangalore, wedding bus rental bangalore, school bus rental bangalore, college trip bus rental bangalore, outstation bus rental bangalore, pilgrimage tour bus bangalore, bus rental whitefield, bus rental electronic city, bus rental koramangala, bus rental indiranagar, bus rental hsr layout, bus rental marathahalli, bus rental jayanagar, bus rental jp nagar, bus rental btm layout, bus rental yelahanka, bus rental hebbal, bus rental sarjapur road, bus rental bannerghatta road, tempo traveller rental karnataka, mini bus rental karnataka, bus rental karnataka";
 include 'includes/header.php';
 ?>
 
