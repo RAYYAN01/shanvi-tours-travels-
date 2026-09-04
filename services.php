@@ -1,6 +1,6 @@
 <?php
-$page_title = "Mini Bus & Bus Rental Bangalore - Corporate, Wedding, School & Pilgrimage";
-$page_description = "Mini bus & bus rental in Bangalore with driver — 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus, 49+1 Luxury Bus. For corporate, wedding, school, pilgrimage & outstation trips.";
+$page_title = "Bus Rental Services in Bangalore";
+$page_description = "Mini bus & bus rental in Bangalore with driver for corporate, wedding, school & pilgrimage trips. 12+1 Tempo Traveller to 49+1 Luxury Bus.";
 $page_keywords = "mini bus rental bangalore, bus rental bangalore, bus hire bangalore, mini bus hire bangalore, tourist bus rental bangalore, corporate bus rental bangalore, wedding bus rental bangalore, school trip bus rental bangalore, college trip bus rental bangalore, pilgrimage bus rental bangalore, outstation bus rental bangalore, mini bus with driver bangalore, bus rental near me";
 include 'includes/header.php';
 ?>

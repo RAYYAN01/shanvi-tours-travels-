@@ -1,5 +1,5 @@
 <?php
-$page_title = "Our Fleet - Tempo Traveller, Mini Bus, Bus & Luxury Bus";
+$page_title = "Our Fleet - Tempo Traveller & Buses";
 $page_description = "Our fleet: 12+1 Tempo Traveller, 21+1 Mini Bus, 33+1 Bus & 49+1 Luxury Bus. Real vehicles, real seating capacity, all AC and GPS-tracked. Price on request.";
 $page_keywords = "mini bus rental bangalore, bus hire bangalore, 12 seater mini bus rental bangalore, 21 seater mini bus rental bangalore, 33 seater bus rental bangalore, 49 seater bus rental bangalore, mini bus with driver bangalore, bus rental near me";
 $no_hero = true;

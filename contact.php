@@ -1,5 +1,5 @@
 <?php
-$page_title = "Contact Us - Book a Mini Bus or Bus Rental";
+$page_title = "Contact Us - Book a Bus Rental";
 $page_description = "Reach us 24/7 at +91 9611120023 or WhatsApp to book a mini bus or bus rental in Bangalore. Visit our SMV Layout office or send us a message online.";
 $page_keywords = "bus rental bangalore booking, mini bus rental near me, bus rental phone number, shanvi tours contact, whatsapp bus booking bangalore";
 include 'includes/header.php';
